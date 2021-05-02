@@ -172,4 +172,5 @@ hr{
 #circle-cover-bg{
     background: url("https://codeinstitute.s3.amazon.aws.com/CSSEssentials/ethos-center-image.jpg") no-repeat center center;
     height: 100%;
+    border-radius: 50%;
 }
