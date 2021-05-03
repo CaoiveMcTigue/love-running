@@ -20,10 +20,10 @@
            <ul id="menu">
                
             <li>
-                <a href="signup.html">sign up</a>
+                <a href="signup.html" class="active">sign up</a>
             </li>
             <li>
-                   <a href="gallery.html" class="active">Gallery</a>
+                   <a href="gallery.html">Gallery</a>
                </li>
                
                <li>
@@ -32,17 +32,32 @@
         </ul>
        </nav>
    </header>
-   <section id="photos">
-       <img src="assets/images/athletes.jpeg" alt="two athletes running together">
-       <img src="assets/images/girls.jpeg" alt="3 girls pictured at event">
-       <img src="assets/images/man.jpeg" alt="Smiling man">
-       <img src="assets/images/mud-run.jpeg" alt="two girls having fun after a mud-run event">
-       <img src="assets/images/runner1.jpeg" alt="Runner 1">
-       <img src="assets/images/runner2.jpeg" alt="Runner 2">
-       <img src="assets/images/runner3.jpeg" alt="Runner 3">
-       <img src="assets/images/runner4.jpeg" alt="Runner 4">
-       <img src="assets/images/running_gang.jpeg" alt="Group of people running together">
+   
+   <section class="form-section">
+       <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+    <h2>Let's get you signed up!<i class="fas fa-heartbeat"></i></h2>
+    <label for="fname">First Name</label>
+    <input id="fname" name="first_name" type="text" class="text-input" required>
+
+    <label for="lname">Last Name</label>
+    <input id="lname" name="last_name" type="text" class="text-input" required>
+
+    <label for="email">Email Address</label>
+    <input id="email" type="email" name="email_address" class="text-input" required>
+
+    <label for="road">Road</label>
+    <input type="radio" id="road" name="running_preference" value="road" required>
+
+    <label for="trail">Trail</label>
+    <input type="radio" id="trail" name="running_preference" value="trail">
+
+    <label for="both">Both</label>
+    <input type="radio" id="both" name="running_preference" value="both">
+    </form>
    </section>
+   
+
+   
    <footer>
        <ul class="social-networks">
            <li>
